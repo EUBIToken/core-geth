@@ -65,7 +65,18 @@ var (
 		EIP1884FBlock: big.NewInt(0),
 		EIP2028FBlock: big.NewInt(0),
 		EIP2200FBlock: big.NewInt(0), // RePetersburg (== re-1283)
-
+		
+		//MintME 2.0 network upgrade
+		EIP2565FBlock:               big.NewInt(2380922),
+		EIP2718FBlock:               big.NewInt(2380922),
+		EIP2929FBlock:               big.NewInt(2380922),
+		EIP2930FBlock:               big.NewInt(2380922),
+		EIP1559FBlock:               big.NewInt(2380922),
+		EIP3198FBlock:               big.NewInt(2380922),
+		EIP3529FBlock:               big.NewInt(2380922),
+		EIP3541FBlock:               big.NewInt(2380922),
+		EIP3554FBlock:               big.NewInt(2380922),
+		
 		ECIP1099FBlock: nil, // Etchash
 
 		DisposalBlock:      big.NewInt(0), // Dispose difficulty bomb
